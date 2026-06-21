@@ -1,0 +1,9 @@
+torch>=2.1.0
+torchvision>=0.16.0
+numpy>=1.24.0
+pydicom>=2.4.0
+Pillow>=10.0.0
+tqdm>=4.66.0
+einops>=0.7.0
+accelerate>=0.25.0
+ema-pytorch>=0.3.1
