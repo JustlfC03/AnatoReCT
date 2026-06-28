@@ -32,6 +32,5 @@ pip install -r requirements.txt
 ## 🔥Training
 To train our model in the paper, run this command:
 ```bash
-cd ./antorect
-python train.py
+python antorect/train.py
 ```
