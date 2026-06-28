@@ -145,7 +145,7 @@ test_loader = DataLoader(test_dataset, batch_size=1, shuffle=False)
 print(f"  Test samples: {len(test_loader)}")
 
 
-output_dir = Path('./results/output_only_grayscale_2020_110')
+output_dir = Path('./results/output_2020_120')
 output_dir.mkdir(parents=True, exist_ok=True)
 
 def save_grayscale(tensor, path):
