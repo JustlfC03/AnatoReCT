@@ -13,7 +13,7 @@ To address severe quantum noise, structural degradation, and inefficient samplin
    
 ## 🧗Proposed method
 
-
+![frame](./imgs/frame1.png)
 
 ## Table of Contents
 - [Requirements](#requirements)
