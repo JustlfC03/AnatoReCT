@@ -14,6 +14,7 @@ To address severe quantum noise, structural degradation, and inefficient samplin
 ## 🧗Proposed method
 
 ![frame](./imgs/frame1.png)
+The overall framework of **AnatoReCT**. Dual-branch anatomical prior learning and temporal gated conditional diffusion for efficient LDCT reconstruction.
 
 ## Table of Contents
 - [Requirements](#requirements)
