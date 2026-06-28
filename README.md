@@ -10,3 +10,7 @@
 - [Evaluation](#evaluation)
 - [Results](#results)
 - [Contributing](#contributing)
+
+## 📝Requirements
+To install requirements:
+`pip install -r requirements.txt`
