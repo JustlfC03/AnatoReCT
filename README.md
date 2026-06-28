@@ -86,13 +86,15 @@ python antorect/test.py
 ```
 
 ## 🚀 Results
-
+### Quantitative Comparison
 ![tab1](./imgs/quantitative_evaluation.png)
 Quantitative comparison with state-of-the-art methods. Best and second-best results are highlighted in red and blue.
 
+### Qualitative Comparison
 ![four_panels_dynamic_artistic](./imgs/four_panels_dynamic_artistic.png)
 Qualitative comparison with state-of-the-art methods. Residual error maps visualize reconstruction errors with respect to the ground truth.
 
+### Downstream Multi-Organ Segmentation
 ![five_organs_segmenation_2016](./imgs/five_organs_segmentation_2016.png)
 Qualitative comparison of downstream multi-organ segmentation results. Segmentation masks are overlaid on reconstructed CT images for visual comparison.
 
