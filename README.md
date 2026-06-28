@@ -13,6 +13,8 @@ To address severe quantum noise, structural degradation, and inefficient samplin
    
 ## 🧗Proposed method
 
+
+
 ## Table of Contents
 - [Requirements](#requirements)
 - [Training](#training)
