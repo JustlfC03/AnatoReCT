@@ -23,7 +23,6 @@ The overall framework of **AnatoReCT**. Dual-branch anatomical prior learning an
 - [Training](#-training)
 - [Evaluation](#-evaluation)
 - [Results](#-results)
-- [Contributing](#contributing)
 
 ## 📂 Datasets
 We evaluate AnatoReCT on two public low-dose CT benchmarks:
@@ -77,3 +76,11 @@ To train our model in the paper, run this command:
 ```bash
 python antorect/train.py
 ```
+
+## 📃 Evaluation
+To evaluate our model in the paper, run this command:
+```bash
+python antorect/test.py
+```
+
+## 🚀 Results
