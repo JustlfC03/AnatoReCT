@@ -28,12 +28,8 @@ The overall framework of **AnatoReCT**. Dual-branch anatomical prior learning an
 We evaluate AnatoReCT on two public low-dose CT benchmarks:
 
 - Mayo 2016 Low-Dose CT Challenge
-- Mayo 2020 Low-Dose CT Dataset
+- Mayo 2020 Low-Dose CT Dataset (Chest)
 
-| Dataset | Description |
-|----------|-------------|
-| Mayo 2016 | Low-Dose CT Grand Challenge |
-| Mayo 2020 (Chest) | Chest CT subset from the Mayo Clinic Low-Dose CT Dataset |
 For the Mayo 2020 dataset, only the **Chest** subset is used in our experiments.
 
 The paired LDCT/NDCT DICOM images are organized using file lists `*.flist` for training and testing. The default directory structure is:
