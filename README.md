@@ -3,3 +3,10 @@
 ## 💡Primary contributions
 
 ## 🧗Proposed method
+
+## Table of Contents
+- [Requirements](#requirements)
+- [Training](#training)
+- [Evaluation](#evaluation)
+- [Results](#results)
+- [Contributing](#contributing)
