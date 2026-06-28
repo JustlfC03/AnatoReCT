@@ -54,6 +54,16 @@ Before training **AnatoReCT**, please pre-train the following feature extractors
 - **HASC:** learns global anatomical priors.
 - **SimSiam:** learns local anatomical priors.
 
+Pretraining command：
+```bash
+# hasc
+python simsiam_hasc/pretrain_hasc.py
+```
+```bash
+# simsiam
+python simsiam_hasc/pretrain_simsiam.py
+```
+
 Place the pretrained checkpoints under:
 ```bash
 simsiam_hasc/checkpoints/
