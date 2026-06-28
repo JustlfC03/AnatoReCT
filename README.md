@@ -84,3 +84,8 @@ python antorect/test.py
 ```
 
 ## 🚀 Results
+## Quantitative Comparison
+
+### Mayo 2016
+
+### Mayo 2020
