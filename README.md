@@ -19,6 +19,7 @@ The overall framework of **AnatoReCT**. Dual-branch anatomical prior learning an
 ## Table of Contents
 - [Datasets](#-datasets)
 - [Requirements](#-requirements)
+- [Pre-trained](#-pre-trained)
 - [Training](#-training)
 - [Evaluation](#-evaluation)
 - [Results](#-results)
@@ -45,6 +46,21 @@ To install requirements:
 ```bash
 pip install -r requirements.txt
 ```
+
+## 🔖 Pre-trained
+
+Before training **AnatoReCT**, please pre-train the following feature extractors:
+
+- **HASC:** learns global anatomical priors.
+- **SimSiam:** learns local anatomical priors.
+
+Place the pretrained checkpoints under:
+
+simsiam_hasc/checkpoints/
+├── pde_epoch_xxx.pt
+└── simsiam_epoch_xxx.pt
+
+> **Note:** During AnatoReCT training, both encoders are kept frozen and are only used to provide anatomical guidance for the diffusion model.
 
 ## 🔥 Training
 To train our model in the paper, run this command:
