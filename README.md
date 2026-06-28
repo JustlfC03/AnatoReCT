@@ -91,7 +91,7 @@ python antorect/test.py
 Quantitative comparison with state-of-the-art methods. Best and second-best results are highlighted in red and blue.
 
 ![four_panels_dynamic_artistic](./imgs/four_panels_dynamic_artistic.png)
-Qualitative comparison of reconstruction results. Residual error maps highlight reconstruction errors relative to the ground truth.
+Qualitative comparison with state-of-the-art methods. Residual error maps visualize reconstruction errors with respect to the ground truth.
 
 ![five_organs_segmenation_2016](./imgs/five_organs_segmentation_2016.png)
 Qualitative comparison of downstream multi-organ segmentation results. Segmentation masks are overlaid on reconstructed CT images for visual comparison.
