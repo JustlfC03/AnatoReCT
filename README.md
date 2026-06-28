@@ -13,4 +13,6 @@
 
 ## 📝Requirements
 To install requirements:
-`pip install -r requirements.txt`
+```bash
+pip install -r requirements.txt
+```
