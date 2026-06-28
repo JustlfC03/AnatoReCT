@@ -55,11 +55,11 @@ Before training **AnatoReCT**, please pre-train the following feature extractors
 - **SimSiam:** learns local anatomical priors.
 
 Place the pretrained checkpoints under:
-
+```bash
 simsiam_hasc/checkpoints/
-├── pde_epoch_xxx.pt
+├── hasc_epoch_xxx.pt
 └── simsiam_epoch_xxx.pt
-
+```
 > **Note:** During AnatoReCT training, both encoders are kept frozen and are only used to provide anatomical guidance for the diffusion model.
 
 ## 🔥 Training
