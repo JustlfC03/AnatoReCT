@@ -25,7 +25,7 @@ else:
     train_num_steps = 120000
 
 condition = True
-flist_dir = "/data/cyf/codes/rrdm/iam"
+flist_dir = "/flist_dir"
 
 folder = [
     os.path.join(flist_dir, "train_gt.flist"),
@@ -89,7 +89,7 @@ class DualFeatureExtractor(nn.Module):
         return global_feat, local_feat
 
 hasc_backbone = FeatureExtractor(in_channels=1, feature_dim=64)
-hasc_ckpt = "/data/cyf/codes/rrdm/ddm_0/project/checkpoints/hasc_epoch_499.pt"
+hasc_ckpt = "/checkpoints/hasc_epoch_xxx.pt"
 
 print(f"  Loading HASC checkpoint: {hasc_ckpt}")
 state_dict = torch.load(hasc_ckpt, map_location='cpu')
@@ -98,7 +98,7 @@ hasc_backbone.load_state_dict(model_state, strict=False)
 print("  HASC loaded")
 
 simsiam_backbone = FeatureExtractor(in_channels=1, feature_dim=256)
-simsiam_ckpt = "/data/cyf/codes/rrdm/ddm_0/project/checkpoints/simsiam_epoch_69.pt"
+simsiam_ckpt = "/checkpoints/simsiam_epoch_xxx.pt"
 print(f"  Loading SimSiam checkpoint: {simsiam_ckpt}")
 state_dict = torch.load(simsiam_ckpt, map_location='cpu')
 model_state = state_dict.get('backbone_state_dict', state_dict)
