@@ -30,7 +30,7 @@ We evaluate AnatoReCT on two public low-dose CT benchmarks:
 - Mayo 2016 Low-Dose CT Challenge
 - Mayo 2020 Low-Dose CT Dataset
 
-The paired LDCT/NDCT DICOM images are organized using file lists (*.flist) for training and testing. The default directory structure is:
+The paired LDCT/NDCT DICOM images are organized using file lists `*.flist` for training and testing. The default directory structure is:
 ```bash
 anatorect/
 ├── train_gt.flist
@@ -38,6 +38,7 @@ anatorect/
 ├── test_gt.flist
 └── test_input.flist
 ```
+Each `.flist` contains the absolute path to paired NDCT (ground truth) and LDCT (input) DICOM slices used during training and inference.
 
 ## 📝 Requirements
 To install requirements:
