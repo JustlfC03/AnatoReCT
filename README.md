@@ -1,5 +1,5 @@
 # AnatoReCT: Anatomy-Aware Conditional Diffusion for Low-Dose CT Reconstruction
 
-# 💡Primary contributions
+## 💡Primary contributions
 
-# 🧗Proposed method
+## 🧗Proposed method
