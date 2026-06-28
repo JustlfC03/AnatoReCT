@@ -44,7 +44,7 @@ channels = 1
 HASC_GLOBAL_DIM = 64
 SIMSIAM_LOCAL_DIM = 128
 
-flist_dir = "/data/cyf/codes/rrdm/iam"
+flist_dir = "/flist_dir"
 folder = [
     os.path.join(flist_dir, "train_gt.flist"),
     os.path.join(flist_dir, "train_input.flist"),
@@ -52,7 +52,7 @@ folder = [
     os.path.join(flist_dir, "test_input.flist")
 ]
 
-checkpoint_path = '/data/cyf/codes/rrdm/antorect/results/sample/model-120.pt'
+checkpoint_path = '/antorect/results/sample/model-120.pt'
 
 print("=" * 80)
 print("Test - Save Grayscale Output Images")
@@ -63,14 +63,14 @@ print("=" * 80)
 device = torch.device('cuda:0')
 
 hasc_backbone = FeatureExtractor(in_channels=1, feature_dim=64)
-hasc_ckpt = "/data/cyf/codes/rrdm/ddm_0/project/checkpoints/hasc_epoch_499.pt"
+hasc_ckpt = "/checkpoints/hasc_epoch_xxx.pt"
 if os.path.exists(hasc_ckpt):
     state_dict = torch.load(hasc_ckpt, map_location='cpu')
     hasc_backbone.load_state_dict(state_dict.get('model_state_dict', state_dict), strict=False)
     print("  HASC loaded")
 
 simsiam_backbone = FeatureExtractor(in_channels=1, feature_dim=256)
-simsiam_ckpt = "/data/cyf/codes/rrdm/ddm_0/project/checkpoints/simsiam_epoch_69.pt"
+simsiam_ckpt = "/checkpoints/simsiam_epoch_xxx.pt"
 if os.path.exists(simsiam_ckpt):
     state_dict = torch.load(simsiam_ckpt, map_location='cpu')
     simsiam_backbone.load_state_dict(state_dict.get('backbone_state_dict', state_dict), strict=False)
