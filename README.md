@@ -86,8 +86,15 @@ python antorect/test.py
 ```
 
 ## 🚀 Results
-## Quantitative Comparison
 
-### Mayo 2016
+![tab1](./imgs/quantitative_evaluation.png)
+Quantitative evaluation of reconstruction quality across state-of-the-art methods. Performance is assessed using five distinct pixel-wise, structural, and perceptual metrics, with the best and second-best results highlighted in red and blue, respectively.
 
-### Mayo 2020
+![tab1](./imgs/five_organs_segmenation_2016.png)
+
+
+![tab1](./imgs/five_organs_segmenation_2020.png)
+
+
+![tab1](./imgs/four_panels_dynamic_artistic.png)
+
